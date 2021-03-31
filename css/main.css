@@ -66,10 +66,22 @@ mark {
   width:370px;
   color:yellow;
 }
+.cal h1{
+  font-size:18px;
+  font-weight: normal;
+ text-decoration: underline;
+  width:180px;
+}
+
+.plant ul{
+  list-style-type:none;
+}
+.plant li:hover{
+  cursor: pointer;
+}
 
 .plant{
   display: block;
- margin-left:120px;
 }
 .content{
   margin-top:80px;
@@ -190,14 +202,15 @@ a{
 a:hover{
   color:black;
 }
-ol{
+#three ol{
   margin-top:10px;
   padding-left: 20px;
 }
-li{
+#three li{
+  cursor: pointer;
   border-bottom: 1px solid black;
 }
-li:hover{
+#three li:hover{
   background-color: yellow;
 }
 @media only screen and (max-width: 600px) {
