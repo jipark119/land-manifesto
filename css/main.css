@@ -230,6 +230,7 @@ a:hover{
   background-color: yellow;
 }
 @media only screen and (max-width: 600px) {
+ 
   body{
     display: inline-block;
     height: 100%;
@@ -241,7 +242,7 @@ a:hover{
   }
   .logo{
     padding-top: 15px;
-    margin:0;
+
     font-size: 25px;
   }
   .sun img{
@@ -266,6 +267,12 @@ a:hover{
     margin-top:0px;
     margin-left:0;
     margin-right:0;
+  }
+  .firstcont{
+    margin-top:60px;
+  }
+  iframe{
+    width:340px;
   }
 }
 /* 
