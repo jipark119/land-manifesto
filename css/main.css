@@ -69,7 +69,6 @@ mark {
 .cal h1{
   font-size:18px;
   font-weight: normal;
- text-decoration: underline;
   width:180px;
 }
 
@@ -84,8 +83,9 @@ mark {
   display: block;
 }
 .content{
+  cursor: pointer;
   margin-top:80px;
-  margin-left:80px;
+  margin-left:40px;
   float: left;
   display: block;
   width:380px;
@@ -154,7 +154,7 @@ text-align: center;
   line-height: 130%;
 }
 #three {
-  display: none;
+  display: block;
   width: 100%;
   padding: 10px 10px;
   text-align: left;
@@ -213,6 +213,22 @@ a:hover{
 #three li:hover{
   background-color: yellow;
 }
+.growing{
+  background-color:white;
+}
+
+.calendar{
+  font-size:12px;
+  column-count: 3;
+  padding-bottom: 10px;;
+}
+.calendar:hover{
+  background-color:white;
+}
+.calendar li:hover{
+  cursor: pointer;
+  background-color: yellow;
+}
 @media only screen and (max-width: 600px) {
   body{
     display: inline-block;
@@ -247,7 +263,7 @@ a:hover{
   .content{
     float: left;
     width:340px;
-    margin-top:70px;
+    margin-top:0px;
     margin-left:0;
     margin-right:0;
   }
